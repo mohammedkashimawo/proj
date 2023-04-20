@@ -1,0 +1,356 @@
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+    height: 500vh;
+    background-color: black;
+  }
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    width: 8%;
+    height: 18%;
+    border-radius: 50%;
+    background-color: rgb(151, 108, 57);
+    z-index: -1;
+    box-shadow: 0px 0px 105px 135px rgba(152, 105, 47, 0.6);
+  }
+  .big {
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    z-index: 5;
+    background-position: -4vw 32vh;
+    border: 5px green solid;
+    background-image: url("big.png");
+    background-blend-mode: lighten;
+    background-size: 100vw 70vh;
+    background-repeat: no-repeat;
+  }
+  .container {
+    width: 100%;
+    height: 300vh;
+    margin-top: 100vh;
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+  }
+  .div:nth-child(1) {
+    width: 100%;
+    height: 50vh;
+    order: 1;
+    border: 1px white solid;
+    background-color: black;
+  }
+  .div:nth-child(1) .spanA {
+    width: 100%;
+    height: 50%;
+    margin-top: 0vh;
+    text-align: center;
+    background-color: red;
+    border: 15px purple solid;
+  }
+  .div:nth-child(1) .spanAa {
+    width: 100%;
+    height: 30%;
+    color: rgb(151, 108, 47);
+    font-weight: bolder;
+    margin-bottom: 0vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: green;
+    text-align: center;
+  }
+  .div:nth-child(1) .spanAb {
+    color: white;
+    font-style: italic;
+    width: 100%;
+    height: 70%;
+    background-color: blue;
+  }
+  .div:nth-child(1) .spanB {
+    width: 100%;
+    height: 50%;
+    background-image: url("img1.jpg");
+    background-size: 100% 150%;
+    border: 0px white solid;
+    border: 1px white solid;
+    background-color: black;
+  }
+  .div:nth-child(1) .div:nth-child(2) {
+    width: 100%;
+    height: 50vh;
+    order: 1;
+    border: 1px red solid;
+    margin-top: 25vh;
+  }
+  .div:nth-child(1) .div:nth-child(3) {
+    width: 100%;
+    height: 50vh;
+    order: 1;
+    border: 1px red solid;
+  }
+  .div:nth-child(1) .div:nth-child(4) {
+    width: 100%;
+    height: 50vh;
+    order: 1;
+    border: 1px red solid;
+  }
+  .div:nth-child(1) .div:nth-child(5) {
+    width: 100%;
+    height: 50vh;
+    order: 1;
+    border: 1px red solid;
+  }
+  .div:nth-child(1) .div:nth-child(6) {
+    width: 100%;
+    height: 50vh;
+    order: 1;
+    border: 1px red solid;
+  }
+}
+@media only screen and (min-width: 602px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-size: 1vw;
+  }
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    width: 8%;
+    height: 18%;
+    border-radius: 50%;
+    background-color: rgb(151, 108, 57);
+    z-index: -1;
+    box-shadow: 0px 0px 105px 135px rgba(152, 105, 47, 0.6);
+  }
+  .big {
+    background-color: none;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("big.png");
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-position: 45% 100%;
+    background-size: auto;
+  }
+  .container {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container div:nth-child(1) {
+    width: 16%;
+    order: 1;
+    border: 1px black solid;
+    background-color: black;
+    border: 0px white solid;
+    height: 90%;
+  }
+  .container div:nth-child(1) .spanA {
+    width: 90%;
+    height: 44%;
+    margin-top: 10vh;
+  }
+  .container div:nth-child(1) .spanA .spanAa {
+    display: block;
+    width: 90%;
+    height: 30%;
+    color: rgb(151, 108, 47);
+    font-weight: bolder;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .container div:nth-child(1) .spanA .spanAb {
+    color: white;
+    font-style: italic;
+    width: 100%;
+    height: 30%;
+  }
+  .container div:nth-child(1) .spanB {
+    width: 100%;
+    height: 30%;
+    background-image: url("img1.jpg");
+    background-size: 100% 100%;
+    border: 0px white solid;
+  }
+  .container div:nth-child(2) {
+    width: 16%;
+    order: 1;
+    border: 1px black solid;
+    background-color: black;
+  }
+  .container div:nth-child(2) .spanA {
+    width: 90%;
+    height: 44%;
+    margin-top: 0vh;
+    border: 0px white solid;
+  }
+  .container div:nth-child(2) .spanA .spanAa {
+    display: block;
+    width: 90%;
+    height: 30%;
+    color: rgb(151, 108, 47);
+    font-weight: bolder;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .container div:nth-child(2) .spanA .spanAb {
+    color: white;
+    font-style: italic;
+    width: 100%;
+    height: 30%;
+  }
+  .container div:nth-child(2) .spanB {
+    width: 100%;
+    height: 50%;
+    background-image: url("book.webp");
+    background-size: 100% 150%;
+    border: 0px white solid;
+    margin-top: -15vh;
+  }
+  .container div:nth-child(3) {
+    width: 16%;
+    order: 1;
+    border: 0px black solid;
+    background-color: black;
+  }
+  .container div:nth-child(3) .spanA {
+    width: 90%;
+    height: 44%;
+    margin-top: 17vh;
+  }
+  .container div:nth-child(3) .spanA .spanAa {
+    display: block;
+    width: 90%;
+    height: 30%;
+    color: rgb(151, 108, 47);
+    font-weight: bolder;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .container div:nth-child(3) .spanA .spanAb {
+    color: white;
+    font-style: italic;
+    width: 100%;
+    height: 30%;
+  }
+  .container div:nth-child(3) .spanB {
+    width: 100%;
+    height: 50%;
+    background-image: url("yay.png");
+    background-size: 80% 90%;
+    border: 0px white solid;
+    margin-top: -25vh;
+    background-repeat: no-repeat;
+  }
+  .container div:nth-child(4) {
+    width: 16%;
+    order: 1;
+    border: 1px black solid;
+    background-color: black;
+  }
+  .container div:nth-child(4) .spanA {
+    width: 90%;
+    height: 44%;
+    margin-top: 0vh;
+  }
+  .container div:nth-child(4) .spanA .spanAa {
+    display: block;
+    width: 90%;
+    height: 30%;
+    color: rgb(151, 108, 47);
+    font-weight: bolder;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .container div:nth-child(4) .spanA .spanAb {
+    color: white;
+    font-style: italic;
+    width: 100%;
+    height: 30%;
+  }
+  .container div:nth-child(4) .spanB {
+    width: 100%;
+    height: 50%;
+    background-image: url("book.webp");
+    background-size: 100% 150%;
+    border: 0px white solid;
+    margin-top: -15vh;
+  }
+  .container div:nth-child(5) {
+    width: 16%;
+    order: 1;
+    border: 0px black solid;
+    background-color: black;
+  }
+  .container div:nth-child(5) .spanA {
+    width: 90%;
+    height: 44%;
+    margin-top: 0vh;
+  }
+  .container div:nth-child(5) .spanA .spanAa {
+    display: block;
+    width: 90%;
+    height: 30%;
+    color: rgb(151, 108, 47);
+    font-weight: bolder;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .container div:nth-child(5) .spanA .spanAb {
+    color: white;
+    font-style: italic;
+    width: 100%;
+    height: 30%;
+  }
+  .container div:nth-child(5) .spanB {
+    width: 100%;
+    height: 44%;
+    background-image: url("book.webp");
+    background-size: 100% 150%;
+    border: 0px white solid;
+    margin-top: -15vh;
+  }
+  .container div:nth-child(6) {
+    width: 16%;
+    order: 1;
+    border: 0px black solid;
+    background-color: black;
+  }
+  .container div:nth-child(6) .spanA {
+    width: 90%;
+    height: 44%;
+    margin-top: 0vh;
+  }
+  .container div:nth-child(6) .spanA .spanAa {
+    display: block;
+    width: 90%;
+    height: 30%;
+    color: rgb(151, 108, 47);
+    font-weight: bolder;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .container div:nth-child(6) .spanA .spanAb {
+    color: white;
+    font-style: italic;
+    width: 100%;
+    height: 30%;
+  }
+  .container div:nth-child(6) .spanB {
+    width: 100%;
+    height: 50%;
+    background-image: url("book.webp");
+    background-size: 100% 150%;
+    border: 0px white solid;
+    margin-top: -15vh;
+  }
+}/*# sourceMappingURL=first.css.map */
